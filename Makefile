@@ -1,6 +1,6 @@
 PREFIX:=/usr/local
-DESTDIR:=$(PREFIX)/bin
+BINDIR:=$(PREFIX)/bin
 
 .PHONY: install
 install:
-	sudo cp *.sh $(DESTDIR)
+	sudo cp *.sh $(BINDIR)
