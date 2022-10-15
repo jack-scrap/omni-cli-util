@@ -1,3 +1,5 @@
+SH:=/bin/bash
+
 PREFIX:=/usr/local
 BINDIR:=$(PREFIX)/bin
 
