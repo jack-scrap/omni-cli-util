@@ -6,5 +6,5 @@ if [ $# -ne 1 ]; then
 	exit 2
 fi
 
-jq '.' $1 > /tmp/f.json;
-mv /tmp/f.json $1;
+jq '.' $1 > /tmp/f.json
+mv /tmp/f.json $1

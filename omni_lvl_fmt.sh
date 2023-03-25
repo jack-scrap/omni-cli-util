@@ -6,8 +6,8 @@ if [ $# -ne 1 ]; then
 	exit 2
 fi
 
-F=$1.json;
-TMP=tmp.json;
+F=$1.json
+TMP=tmp.json
 
-cat $F | jq '.' > $TMP;
-mv $TMP $F;
+cat $F | jq '.' > $TMP
+mv $TMP $F

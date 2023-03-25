@@ -1,8 +1,8 @@
 #!/bin/bash
 
-mkdir -p lib;
+mkdir -p lib
 
-cp build/*.so lib;
+cp build/*.so lib
 
-make;
-zip build.zip omni lib/*.so res lvl player lvl_spec.json stat.json InstallScript.vdf Makefile;
+make
+zip build.zip omni lib/*.so res lvl player lvl_spec.json stat.json InstallScript.vdf Makefile
