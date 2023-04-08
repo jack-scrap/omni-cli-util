@@ -8,7 +8,7 @@ fi
 
 LIBDIR=build
 
-rm build_linux.zip
+rm -f build_linux.zip
 
 git pull $1
 make
