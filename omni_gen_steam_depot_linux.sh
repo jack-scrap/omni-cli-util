@@ -8,9 +8,11 @@ fi
 
 LIBDIR=build
 
-rm -f build_linux.zip
+AR=build_linux.zip
+
+rm -f $AR
 
 git checkout master
 git pull $1 master
 make
-zip -r build_linux.zip omni $LIBDIR/*.so dep res lvl player/cfg player/doc omni.py catch_out.py lvl_spec.json stat.json installscript.vdf
+zip -r $AR omni $LIBDIR/*.so dep res lvl player/cfg player/doc omni.py catch_out.py lvl_spec.json stat.json installscript.vdf
