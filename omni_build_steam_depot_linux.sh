@@ -6,4 +6,4 @@ if [ $# -ne 1 ]; then
 	exit 2
 fi
 
-steamcmd +login anonymous +run_app_build $1/scripts/app_build_2329020.vdf
+steamcmd +login anonymous +run_app_build $1/scripts/app_build_2329020.vdf +quit
