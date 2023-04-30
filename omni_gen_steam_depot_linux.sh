@@ -16,4 +16,4 @@ git pull $1 master
 make clean
 make
 
-zip -r $AR omni build/*.so dep/* res lvl player/cfg player/doc omni.py catch_out.py lvl_spec.json stat.json installscript.vdf
+zip -r $AR omni build/*.so dep/* res lvl player/cfg player/doc omni.py catch_out.py lvl_spec.json stat.json installscript_linux.vdf
