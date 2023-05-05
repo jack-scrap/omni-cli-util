@@ -8,6 +8,10 @@ fi
 
 CONTENT_ROOT=content
 
+INSTALL_SCRIPT=installscript_linux.vdf 
+
+find content -type f ! -name $INSTALL_SCRIPT -delete
+
 cp $1/omni $CONTENT_ROOT
 mkdir -p $CONTENT_ROOT/lib
 cp $1/lib/*.so $CONTENT_ROOT/lib
