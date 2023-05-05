@@ -11,4 +11,4 @@ install:
 
 .PHONY: uninstall
 uninstall:
-	rm $(BINDIR)/$(SRCS)
+	rm $(SRCS:%=$(BINDIR)/%)
